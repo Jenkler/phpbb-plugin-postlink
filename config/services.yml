@@ -1,0 +1,7 @@
+services:
+    jenkler.postlink.listener:
+        class: jenkler\postlink\event\listener
+        arguments:
+            - @config
+        tags:
+            - { name: event.listener }

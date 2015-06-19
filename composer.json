@@ -1,0 +1,28 @@
+{
+	"name": "jenkler/postlink",
+	"type": "phpbb-extension",
+	"description": "An extension that adds a prefix on postlinks.",
+	"homepage": "https://www.jenkler.se",
+	"version": "1.0.0",
+	"keywords": ["phpbb", "extension", "google", "analytics"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Mikael Jenkler",
+			"role": "Jenkler Development Team"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "Postlink",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.0-RC3,<3.2.*@dev"
+		}
+	}
+}
