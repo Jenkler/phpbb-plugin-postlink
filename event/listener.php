@@ -48,6 +48,7 @@ class listener implements EventSubscriberInterface
 
 	private function add_prefix($matches)
 	{
+		if(!$matches[2]) return $matches[0];
 		$host = parse_url($this->config['postlink_prefix_url'], PHP_URL_HOST);
 		$http = $matches[2] ? $matches[2] : 'http://';
 		$url = trim($http.$matches[3], '"');
