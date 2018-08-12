@@ -5,7 +5,6 @@
 	"homepage": "https://www.jenkler.se",
 	"version": "1.0.0",
 	"keywords": ["phpbb", "extension", "google", "analytics"],
-	"license": "GPL-2.0",
 	"authors": [
 		{
 			"name": "Mikael Jenkler",
